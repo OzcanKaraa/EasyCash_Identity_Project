@@ -1,0 +1,20 @@
+REFERANCES
+--------------------------------------------------------------------------------
+Access Modifier : Erişim belirleyici.
+	Bir sınıfın interface ,metodun diğer yerlerden nasıl erişim sağlanıp sağlanamayacağını kontrol etme.
+	Public ,GENEL 
+	Private,Sadece interface classtan erişim sağlanır Özel
+	Protected,Bağlı oldugu sınıf ve Kalıtsal sınıf Miras alma
+	Internal,Bulundugu Katmandan erişim sağlanır.
+	------------------------------------------------------------------------------------------------------
+
+	AppUser --> Kullanici Bilgiler
+	CustomerAccount  -->Müşterinin Banka Hesap Bilgileri
+	AccountProcess --> Müşteri Hesap Hareketleri 
+	Hesap Hareketi --> id,islem adi ,tutar , Islem türü ,Tarih,AppUser1,AppUser2
+
+	--------------------------------------------------------------------------------------------
+	Data Access -> Add -->Project Referance -->> Entity Referans
+	Bussines Layer -> Entity Framework && Data Access Referans
+	Prensentation Layer -> Entity Framework && Data Access && Bussines Layer Referans (Tüm Katmanları Referansını aldı.)
+

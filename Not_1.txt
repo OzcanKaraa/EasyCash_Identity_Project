@@ -6,7 +6,7 @@ Api ile birlikte 6 Katmanlı
 3-Bussiness Layer : Validasyon kurallarının yazılacağı katman.Fluence Validation extensionların tutulacağı Log yapılacağı katman.
 4-Presentation Layer : Sunum katmanı olacak.
 5-DTO Layer : Data Transfer katmanı .Entity-Validasyon birleştirme.Model görevi de içeriyor.
-6-Api Layer : 
+6-Api Layer : Api Katmanı
 
 
 Yapılacak ilk iş Sınıf kütüphanesi oluşturma.Katmanları tanımlama.
@@ -23,18 +23,6 @@ BussinessLayer katmanı ise PresentationLayer katmanında yer alacak.
 
 Concrete klasörü somut değerler için.
 
-Access Modifier : Erişim belirleyici.
-	Bir sınıfın interface ,metodun diğer yerlerden nasıl erişim sağlanıp sağlanamayacağını kontrol etme.
-	Public ,GENEL 
-	Private,Sadece interface classtan erişim sağlanır Özel
-	Protected,Bağlı oldugu sınıf ve Kalıtsal sınıf Miras alma
-	Internal,Bulundugu Katmandan erişim sağlanır.
-	------------------------------------------------------------------------------------------------------
-
-	AppUser --> Kullanici Bilgiler
-	CustomerAccount  -->Müşterinin Banka Hesap Bilgileri
-	AccountProcess --> Müşteri Hesap Hareketleri 
-	Hesap Hareketi --> id,islem adi ,tutar , Islem türü ,Tarih,AppUser1,AppUser2
 
 
 
