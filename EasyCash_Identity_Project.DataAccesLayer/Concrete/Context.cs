@@ -10,9 +10,11 @@ namespace EasyCash_Identity_Project.DataAccessLayer.Concrete
 {
     public class Context : IdentityDbContext
     {
-        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //Baglantı adresi 
+            //Baglanti adresi
+            optionsBuilder.UseSqlServer("server=DESKTOP-U82UVSC;initial catalog=EasyCashDB;integrated Security=true;"); 
+
 
         }
     }
