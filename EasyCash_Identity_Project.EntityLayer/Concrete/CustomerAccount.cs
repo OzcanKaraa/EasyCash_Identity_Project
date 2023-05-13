@@ -8,12 +8,15 @@ namespace EasyCash_Identity_Project.EntityLayer.Concrete
 {
 		public Class CustomerAccount
 	{
-		 public int CustomerAccountID { get; set; }
+		public int CustomerAccountID { get; set; }
 
-		 public string  CustomerAccountNumber { get; set; }
+		public string  CustomerAccountNumber { get; set; }
 
-		 public string CustomerAccountCurrency { get; set; } /*Müşteri Para türü*/
+		public string CustomerAccountCurrency { get; set; } /*Müşteri Para türü*/
 
-		public string CustomerAccountBalance { get; set; } /*Müşteri oplam Bakiye*/
+		public string CustomerAccountBalance { get; set; } /*Müşteri Toplam Bakiye*/
+
+		public string CustomerAccountBankBranch { get; set; } /*Banka Subesi*/
+
 }
 }
