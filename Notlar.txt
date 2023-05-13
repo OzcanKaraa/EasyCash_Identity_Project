@@ -15,3 +15,27 @@ Yapılacak ilk iş Sınıf kütüphanesi oluşturma.Katmanları tanımlama.
 3.Katman :EasyCash_Identity_Project.BussinessLayer (Class Library)
 4.Katman :EasyCash_Identity_Project.DtoLayer (Class Library)
 5.Katman :EasyCash_Identity_Project.PresentationLayer(MVC)
+
+Refactor etmek:  Bir katmanda buunan sınıfların metotların interfacelerin  başka katmanda kullanabilmek.
+EntityLayer projenin tüm katmanlarında yer alacak.
+DataAccesLayer katmanı ise Bussiness Layer ve PresentationLayer katmanında yer alacak.
+BussinessLayer katmanı ise PresentationLayer katmanında yer alacak.
+
+Concrete klasörü somut değerler için.
+
+Access Modifier : Erişim belirleyici.
+	Bir sınıfın interface ,metodun diğer yerlerden nasıl erişim sağlanıp sağlanamayacağını kontrol etme.
+	Public ,GENEL 
+	Private,Sadece interface classtan erişim sağlanır Özel
+	Protected,Bağlı oldugu sınıf ve Kalıtsal sınıf Miras alma
+	Internal,Bulundugu Katmandan erişim sağlanır.
+	------------------------------------------------------------------------------------------------------
+
+	AppUser --> Kullanici Bilgiler
+	CustomerAccount  -->Müşterinin Banka Hesap Bilgileri
+	AccountProcess --> Müşteri Hesap Hareketleri 
+	Hesap Hareketi --> id,islem adi ,tutar , Islem türü ,Tarih,AppUser1,AppUser2
+
+
+
+	
