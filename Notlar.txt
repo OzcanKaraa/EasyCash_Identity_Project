@@ -1,0 +1,17 @@
+N Katmanli mimari 
+Api ile birlikte 6 Katmanlı
+
+1-Entity Layer : Entity tutma.Identity ait siniflar ozellikler olusturulacak.
+2-Data Acces Layer : CRUD gerçekleşeceği katman olacak.Reposty Dizayn baslayip United.
+3-Bussiness Layer : Validasyon kurallarının yazılacağı katman.Fluence Validation extensionların tutulacağı Log yapılacağı katman.
+4-Presentation Layer : Sunum katmanı olacak.
+5-DTO Layer : Data Transfer katmanı .Entity-Validasyon birleştirme.Model görevi de içeriyor.
+6-Api Layer : 
+
+
+Yapılacak ilk iş Sınıf kütüphanesi oluşturma.Katmanları tanımlama.
+1.Katman :EasyCash_Identity_Project.EntityLayer  (Class Library)
+2.Katman :EasyCash_Identity_Project.DataAccesLayer (Class Library)
+3.Katman :EasyCash_Identity_Project.BussinessLayer (Class Library)
+4.Katman :EasyCash_Identity_Project.DtoLayer (Class Library)
+5.Katman :EasyCash_Identity_Project.PresentationLayer(MVC)

@@ -3,7 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notlar", "Notlar", "{5F121874-C589-4A15-BE81-8616A483911C}"
+	ProjectSection(SolutionItems) = preProject
+		Notlar.txt = Notlar.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCash_Identity_Project.EntityLayer", "EasyCash_Identity_Project.EntityLayer\EasyCash_Identity_Project.EntityLayer.csproj", "{4DA994FF-FE57-4656-8584-A64D453EC01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCash_Identity_Project.DataAccesLayer", "EasyCash_Identity_Project.DataAccesLayer\EasyCash_Identity_Project.DataAccesLayer.csproj", "{DF34BDC1-EB0D-43BB-A8F1-2E0A7ED9AD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCash_Identity_Project.BussinessLayer", "EasyCash_Identity_Project.BussinessLayer\EasyCash_Identity_Project.BussinessLayer.csproj", "{D7664112-DCC9-474F-B0A2-18B75AFE9770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCash_Identity_Project.DtoLayer", "EasyCash_Identity_Project.DtoLayer\EasyCash_Identity_Project.DtoLayer.csproj", "{3D56BF09-2A03-4E97-9FD4-AF857A81FA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCash_Identity_Project.PresentationLayer", "EasyCash_Identity_Project.PresentationLayer\EasyCash_Identity_Project.PresentationLayer.csproj", "{ED449EEB-AB8F-4FC4-B464-FCFAE6351A92}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA994FF-FE57-4656-8584-A64D453EC01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA994FF-FE57-4656-8584-A64D453EC01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA994FF-FE57-4656-8584-A64D453EC01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA994FF-FE57-4656-8584-A64D453EC01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF34BDC1-EB0D-43BB-A8F1-2E0A7ED9AD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF34BDC1-EB0D-43BB-A8F1-2E0A7ED9AD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF34BDC1-EB0D-43BB-A8F1-2E0A7ED9AD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF34BDC1-EB0D-43BB-A8F1-2E0A7ED9AD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7664112-DCC9-474F-B0A2-18B75AFE9770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7664112-DCC9-474F-B0A2-18B75AFE9770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7664112-DCC9-474F-B0A2-18B75AFE9770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7664112-DCC9-474F-B0A2-18B75AFE9770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D56BF09-2A03-4E97-9FD4-AF857A81FA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D56BF09-2A03-4E97-9FD4-AF857A81FA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D56BF09-2A03-4E97-9FD4-AF857A81FA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D56BF09-2A03-4E97-9FD4-AF857A81FA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED449EEB-AB8F-4FC4-B464-FCFAE6351A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED449EEB-AB8F-4FC4-B464-FCFAE6351A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED449EEB-AB8F-4FC4-B464-FCFAE6351A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED449EEB-AB8F-4FC4-B464-FCFAE6351A92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
