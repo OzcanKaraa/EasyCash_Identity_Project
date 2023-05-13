@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EasyCash_Identity_Project.EntityLayer.Concrete
 {
-    internal class CustomerAccount
+    public class CustomerAccount
     {
         public int CustomerAccountID { get; set; } // Müşteri Hesabı ID
 

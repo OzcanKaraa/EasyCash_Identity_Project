@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EasyCash_Identity_Project.EntityLayer.Concrete
 {
-    internal class CustomerAccountProcess
+    public class CustomerAccountProcess
     {
         public int CustomerAccountProcessID { get; set; }  // Müşteri Hesabı ID
         public string ProcessType { get; set; } // Islem türü

@@ -18,3 +18,8 @@ Access Modifier : Erişim belirleyici.
 	Bussines Layer -> Entity Framework && Data Access Referans
 	Prensentation Layer -> Entity Framework && Data Access && Bussines Layer Referans (Tüm Katmanları Referansını aldı.)
 
+	-----------------------------------------------------------------------------------------------------------------
+	DataAccess ->Concrete klasoru Context class tutacak.
+	Migration olusturma icin IdentityDbContext kalıtım alındı.
+	IdentityDbContext DBContext sınıfı mevcut.
+	override onc
