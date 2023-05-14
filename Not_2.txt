@@ -32,3 +32,8 @@ Access Modifier : Erişim belirleyici.
 	Packege Manager Console Data Access DBContext bagli miras alan class seç.
 	add-migration first-mig  //First mig adında migration olusturma
 	update-database //Database güncelleme
+	 add-migration mig_add_appuser_approle_tabless //Tablolari ekleme 
+	 update-database 
+	 remove-migration
+	  update-database 
+	  add-migration mig_add_relation_customerAccount_appUser

@@ -13,6 +13,6 @@ namespace EasyCash_Identity_Project.EntityLayer.Concrete
         public decimal AMount { get; set; } // Miktar
         public DateTime ProcessDate { get; set; } // Islem Tarihi 
            
-        //Gonderici ve Alici 
+        //Id-IslemTürü-(Gelen Giden)-Miktar-Tarih-Gonderici - Alici 
     }
 }

@@ -8,13 +8,13 @@ Api ile birlikte 6 Katmanlı
 5-DTO Layer : Data Transfer katmanı .Entity-Validasyon birleştirme.Model görevi de içeriyor.
 6-Api Layer : Api Katmanı
 
-
+ Blank Solution İçerisine
 Yapılacak ilk iş Sınıf kütüphanesi oluşturma.Katmanları tanımlama.
-1.Katman :EasyCash_Identity_Project.EntityLayer  (Class Library)
-2.Katman :EasyCash_Identity_Project.DataAccesLayer (Class Library)
-3.Katman :EasyCash_Identity_Project.BussinessLayer (Class Library)
-4.Katman :EasyCash_Identity_Project.DtoLayer (Class Library)
-5.Katman :EasyCash_Identity_Project.PresentationLayer(MVC)
+1.Katman :EasyCash_Identity_Project.EntityLayer  (Class Library add)
+2.Katman :EasyCash_Identity_Project.DataAccesLayer (Class Library add )
+3.Katman :EasyCash_Identity_Project.BussinessLayer (Class Library add )
+4.Katman :EasyCash_Identity_Project.DtoLayer (Class Library add)
+5.Katman :EasyCash_Identity_Project.PresentationLayer(MVC) ASP
 
 Refactor etmek:  Bir katmanda buunan sınıfların metotların interfacelerin  başka katmanda kullanabilmek.
 EntityLayer projenin tüm katmanlarında yer alacak.

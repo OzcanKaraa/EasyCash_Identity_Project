@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EasyCash_Identity_Project.DataAccessLayer.Concrete
 {
-    public class Context : IdentityDbContext
+    public class Context : IdentityDbContext<AppUser,AppRole,int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,9 +18,11 @@ namespace EasyCash_Identity_Project.DataAccessLayer.Concrete
         }
         public DbSet<CustomerAccount> CustomerAccounts{ get; set; } // <CustomerAccount> C# Class ismi
                                                                     // customerAccounts Sql de Tablo ismi
-        public DbSet<CustomerAccountProcess> CustomerAccountProcesses { get; set; } //<CustomerAccountProcess> C# Class ismi ,
-                                                                                    //  CustomerAccountProcesses Sql de Tablo ismi
+        public DbSet<CustomerAccountProcess> CustomerAccountProcesses { get; set; }
+        //<CustomerAccountProcess> C# Class ismi ,
+        //  CustomerAccountProcesses Sql de Tablo ismi
 
+        //
 
     }
 }

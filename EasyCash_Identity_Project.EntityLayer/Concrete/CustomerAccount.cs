@@ -17,5 +17,10 @@ namespace EasyCash_Identity_Project.EntityLayer.Concrete
         public string CustomerAccountBalance { get; set; } // Müşteri Toplam Bakiye
 
         public string CustomerAccountBankBranch { get; set; } // Banka Subesi
+
+        public int AppUserId { get; set; }  //Kullanıcı ID
+
+        public AppUser AppUser { get; set; } //Çok ilişki için AppUser türünde oluşturuldu.
+
     }
 }
