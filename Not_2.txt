@@ -22,4 +22,13 @@ Access Modifier : Erişim belirleyici.
 	DataAccess ->Concrete klasoru Context class tutacak.
 	Migration olusturma icin IdentityDbContext kalıtım alındı.
 	IdentityDbContext DBContext sınıfı mevcut.
-	override onc
+	override onc (tab Tusu)
+	--------------------------------------------------------------
+	MIGRATION ISLEMLERI 
+	
+	Migration Up islemler gerceklesirse database yansir.
+	Down ise iptal etme silme islemi
+
+	Packege Manager Console Data Access DBContext bagli miras alan class seç.
+	add-migration first-mig  //First mig adında migration olusturma
+	update-database //Database güncelleme
